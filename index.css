@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #b2bec3;
+  width: 100%;
+  height: 100%;
+}
+.btn {
+  cursor: pointer;
+}
+body {
+  color: #34495e;
+}
+span,
+h4 {
+  font-size: 20px;
+  color: white;
+}
+.js-title {
+  color: white;
+  font-size: 120px;
+  margin-bottom: 0px;
+}
+.js-clock {
+  margin-top: 200px;
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.clicked {
+  color: #7f8c8d;
+}
+.form,
+.greetings {
+  display: none;
+}
+.showing {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+}
+.toDoForm {
+  display: flex;
+  justify-content: center;
+}
+.toDoForm input {
+  padding: 12px 8px;
+  width: 300px;
+  font-size: 15px;
+  display: flex;
+  justify-content: left;
+}
+.js-toDoList li {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.bgImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  animation: fadeIn 0.5s linear;
+}
+
+.weather {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
